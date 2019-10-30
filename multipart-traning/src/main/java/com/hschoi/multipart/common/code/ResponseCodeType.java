@@ -15,6 +15,7 @@ public enum ResponseCodeType implements EnumType {
   , INVALID_FILE("E_001","처리 가능한 csv파일이 아닙니다.", 404)
   , FAIL_FILE_READ("E_002","파일 읽기에 실패하였습니다.", 404)
   , FAIL_FILE_PARSE("E_003","파일 파싱에 실패하였습니다.", 404)
+  , INVALID_DEVICETYPE("E_003","올바른 단말기타입이 아닙니다.", 404)
 	;
 	
 	private String message;
